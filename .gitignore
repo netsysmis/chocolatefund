@@ -1,1 +1,13 @@
 node_modules/
+.hugo_build.lock
+hugo_stats.json
+resources/
+dist/
+.claude/
+_bmad/
+_bmad-output/
+meghna-hugo/
+design-artifacts/
+docs/
+*.todo
+*.txt
