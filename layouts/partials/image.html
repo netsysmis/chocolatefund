@@ -1,0 +1,13 @@
+{{- if .Src -}}
+  {{- $src := .Src -}}
+  {{- $alt := default "image" .Alt -}}
+  {{- $class := default "" .Class -}}
+  {{- $image := resources.Get $src -}}
+  {{- if $image -}}
+    <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy">
+  {{- else -}}
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy">
+  {{- end -}}
+{{- else -}}
+  {{- .Alt -}}
+{{- end -}}

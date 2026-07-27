@@ -1,0 +1,85 @@
+banner:
+  banner:
+    enable: true
+    title: "Creating Value from Africa's Heritage"
+    content: "Through Local Processing and Diaspora Investment"
+    bg_image_webp: "images/hero.jpg"
+    button:
+      enable: true
+      label: "Get in Touch"
+      link: "#contact"
+
+about:
+  about:
+    enable: true
+    title: "About Initiative"
+    about_item:
+      - icon: "ti-world"
+        title: "The Gap"
+        content: "Ghana and Cote d'Ivoire produce over 60% of the world's cocoa, yet capture only 2–4% of the value. The highest margins are earned in processing, branding, and distribution outside Africa."
+      - icon: "ti-stats-up"
+        title: "The Opportunity"
+        content: "Beginning with the 2026/27 crop season, Ghana has directed that at least 50% of cocoa beans be processed locally — creating a timely opening for investment into processing infrastructure and market development."
+      - icon: "ti-group"
+        title: "The Diaspora as the 17th Region"
+        content: "Ghana's 17th Region concept treats the global diaspora as a formal partner in investment, innovation, skills transfer, and long-term nation building."
+
+funfacts:
+  funfacts:
+    enable: true
+    title: "Impact at a Glance"
+    bg_image: "images/hero.jpg"
+    counter_item:
+      - icon: "ti-stats-up"
+        count: "60"
+        title: "Global Cocoa Share"
+      - icon: "ti-money"
+        count: "3"
+        title: "Value Captured by Africa"
+      - icon: "ti-target"
+        count: "50"
+        title: "Local Processing Target"
+      - icon: "ti-world"
+        count: "2"
+        title: "Countries Supported"
+
+cta:
+  cta:
+    enable: true
+    title: "Join Us in Building Ghana's Cocoa Future"
+    content: "The Chocolate Future offers a credible platform for investment that is economically strategic, socially meaningful, and nationally aligned — with Ghana as our home."
+    bg_image: "images/hero.jpg"
+    bg_image_webp: "images/hero.jpg"
+    button:
+      enable: true
+      label: "Contact Us"
+      link: "#contact"
+
+service:
+  service:
+    enable: true
+    title: "How It Works"
+    service_item:
+      - icon: "ti-briefcase"
+        name: "Connect Capital"
+        content: "We channel diaspora investment directly into Ghana's cocoa-processing industry, aligning with national policy objectives for local value addition."
+      - icon: "ti-building"
+        name: "Support Processing Capacity"
+        content: "Funding flows to processing infrastructure, working capital, and market development that help transform Ghana from raw-bean exporter to stronger participant in the higher-value segments of the cocoa economy."
+      - icon: "ti-announcement"
+        name: "Create Employment & Skills Transfer"
+        content: "Every investment creates jobs, encourages skills transfer, and contributes to a model of development that aligns commercial returns with national transformation."
+
+contact:
+  contact:
+    enable: true
+    title: "Contact Us"
+    subtitle: "Get in Touch"
+    content: "We welcome inquiries from diaspora investors, partners, and anyone interested in learning more about The Chocolate Future initiative."
+    contact_form:
+      enable: false
+    contact_list:
+      - icon: "ti-email"
+        info: "info@chocolatefuture.com"
+      - icon: "ti-location-pin"
+        info: "Delaware, USA · Ghana"

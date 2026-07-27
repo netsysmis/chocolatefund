@@ -1,0 +1,136 @@
+baseURL = "https://netsysmis.github.io/chocolatefund/"
+languageCode = "en-us"
+title = "The Chocolate Future"
+theme = "meghna"
+publishDir = "docs"
+hasCJKAuto = false
+disableHugoGeneratorInject = true
+summaryLength = 15
+timeZone = "Africa/Accra"
+
+[pagination]
+  pagerSize = 6
+
+[build]
+  noJSConfigInAssets = false
+  useResourceCacheWhen = "fallback"
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = "assets/.*\\.(js|ts|jsx|tsx)"
+    target = "(js|scripts|javascript)"
+  [[build.cachebusters]]
+    source = "assets/.*\\.(css|sass|scss)$"
+    target = "(css|styles|scss|sass)"
+  [[build.cachebusters]]
+    source = "assets/.*\\.(.*)$"
+    target = "$1"
+
+[outputs]
+  home = ["HTML"]
+
+[imaging]
+  quality = 90
+  resampleFilter = "lanczos"
+
+[caches]
+  [caches.images]
+    dir = ":resourceDir/_gen"
+    maxAge = "720h"
+  [caches.assets]
+    dir = ":resourceDir/_gen"
+    maxAge = "720h"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+############################# Plugins ##########################
+[[params.plugins.css]]
+  link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+  link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+  link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+  link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+  link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+
+[[params.plugins.js]]
+  link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+  link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+  link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+  link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+  link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+  link = "plugins/lazy-load/lozad.min.js"
+
+############################# Default Parameters ##########################
+[params]
+
+
+  # logo = "images/logo.png"  # removed - no logo file, using site title as text
+
+  description = "Creating Value from Africa's Heritage Through Local Processing and Diaspora Investment"
+  author = "netsysmis"
+  google_analytics_id = ""
+  post_share = false
+  custom_css = ["assets/css/custom.css"]
+
+  [params.preloader]
+    enable = false
+
+  [params.cookies]
+    enable = false
+
+  [params.map]
+    enable = false
+
+[[params.social]]
+  icon = "ti-email"
+  link = "mailto:info@chocolatefuture.com"
+
+[[params.social]]
+  icon = "ti-linkedin"
+  link = "#"
+
+################################ English Language ########################
+[Languages.en]
+  languageName = "En"
+  languageCode = "en-us"
+  contentDir = "content"
+
+[Languages.en.params]
+  weight = 1
+  home = "Home"
+  copyright = "Copyright &copy; 2026 The Chocolate Future. Delaware &middot; Ghana"
+
+[[menu.main]]
+  name = "Home"
+  url = ""
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "#about"
+  weight = 2
+
+[[menu.main]]
+  name = "Impact"
+  url = "#counter"
+  weight = 3
+
+[[menu.main]]
+  name = "Join"
+  url = "#cta"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 5

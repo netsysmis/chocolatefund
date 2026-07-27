@@ -1,0 +1,289 @@
+/* African Earth Tone Theme Overrides */
+
+/* === Base Colors === */
+html, body {
+  background-color: #3E2723 !important;
+  color: #A1887F !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #D7CCC8 !important;
+}
+
+p, li, td {
+  color: #A1887F !important;
+}
+
+a {
+  color: #8D6E63;
+}
+
+a:focus, a:hover {
+  color: #A1887F;
+}
+
+/* === Selection === */
+::-moz-selection {
+  background: #4E342E;
+  color: #FFECB3;
+}
+
+::selection {
+  background: #4E342E;
+  color: #FFECB3;
+}
+
+/* === Buttons === */
+.btn-main,
+.btn-transparent:hover,
+.btn-transparent:focus {
+  background: #4E342E !important;
+  border-color: #4E342E !important;
+  color: #FFECB3 !important;
+}
+
+.btn-main:hover {
+  background: #5D4037 !important;
+  border-color: #5D4037 !important;
+  color: #FFECB3 !important;
+}
+
+.btn-main:after {
+  background: #FFECB3 !important;
+}
+
+/* === Primary Accent Color Overrides === */
+.text-color {
+  color: #FFECB3 !important;
+}
+
+/* === Section Backgrounds === */
+.bg-one {
+  background-color: #3E2723 !important;
+}
+
+.bg-dark {
+  background-color: #311B15 !important;
+}
+
+.bg-gray {
+  background-color: #4E342E !important;
+}
+
+/* === Navigation === */
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #FFECB3 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #BCAAA4 !important;
+}
+
+/* === Hero Section === */
+.hero-area .block h1 {
+  color: #FFECB3 !important;
+}
+
+.hero-area .block p {
+  color: #D7CCC8 !important;
+}
+
+/* === About Section === */
+#about .block h4 {
+  color: #FFECB3 !important;
+}
+
+#about .block p {
+  color: #A1887F !important;
+}
+
+.about-style2 .block h4 {
+  color: #FFECB3 !important;
+}
+
+/* === Feature Items (About) === */
+.nav-feature li a {
+  color: #BCAAA4 !important;
+}
+
+.nav-feature li a:hover,
+.nav-feature li a.active {
+  color: #FFECB3 !important;
+  border-color: #FFECB3 !important;
+}
+
+.nav-feature {
+  border-color: #4E342E !important;
+}
+
+.tab-content h4 {
+  color: #FFECB3 !important;
+}
+
+/* === Services / Impact Section === */
+.single-services {
+  background: #4E342E !important;
+}
+
+.single-services h4 {
+  color: #FFECB3 !important;
+}
+
+.single-services i {
+  color: #FFECB3 !important;
+}
+
+.single-services:hover i {
+  color: #8D6E63 !important;
+}
+
+/* === Funfacts / Counter Section === */
+.counter {
+  background-color: #311B15 !important;
+}
+
+.counter .count {
+  color: #FFECB3 !important;
+}
+
+.counter .title {
+  color: #BCAAA4 !important;
+}
+
+/* === Call to Action === */
+.call-to-action {
+  background-color: #4E342E !important;
+}
+
+.call-to-action h2 {
+  color: #FFECB3 !important;
+}
+
+.call-to-action p {
+  color: #D7CCC8 !important;
+}
+
+/* === Contact Section === */
+#contact .block-contact h2 {
+  color: #FFECB3 !important;
+}
+
+#contact .block-contact p {
+  color: #A1887F !important;
+}
+
+.contact-list .single-contact {
+  color: #BCAAA4 !important;
+}
+
+.contact-list .single-contact i {
+  color: #FFECB3 !important;
+}
+
+/* === Footer === */
+.footer-widget p {
+  color: #8D6E63 !important;
+}
+
+.footer-widget .list-recent li a {
+  color: #8D6E63 !important;
+}
+
+.list-inline-footer a i {
+  color: #BCAAA4 !important;
+  background: #4E342E !important;
+}
+
+.list-inline-footer a:hover i {
+  background: #FFECB3 !important;
+  color: #3E2723 !important;
+}
+
+/* === Scroll to Top === */
+.scrollUp {
+  background: #4E342E !important;
+  color: #FFECB3 !important;
+  border: 1px solid #5D4037 !important;
+}
+
+/* === HR Dividers === */
+hr {
+  border-top-color: #4E342E !important;
+}
+
+/* === Form Elements === */
+.form-control {
+  background-color: #4E342E !important;
+  border-color: #5D4037 !important;
+  color: #D7CCC8 !important;
+}
+
+.form-control:focus {
+  border-color: #FFECB3 !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 236, 179, 0.25) !important;
+}
+
+/* === Portfolio/Project Cards === */
+.single-project {
+  background: #4E342E !important;
+}
+
+/* === Team Section === */
+.single-team {
+  background: #4E342E !important;
+}
+
+/* === Client/Logo Section === */
+.client-area .owl-carousel .client-logo {
+  background: #3E2723 !important;
+}
+
+/* === Pricing (if used) === */
+.single-element {
+  background: #4E342E !important;
+}
+
+.single-element .title .sub {
+  color: #FFECB3 !important;
+}
+
+/* === Blog Cards (if used) === */
+.single-blog {
+  background: #4E342E !important;
+}
+
+/* === Sidebar === */
+.sidebar-about-author .desc {
+  background: #4E342E !important;
+}
+
+/* === Parallax overlay === */
+.parallax-section .overlaybg {
+  background: #311B15 !important;
+}
+
+/* === Magnific Popup === */
+.mfp-close {
+  color: #FFECB3 !important;
+}
+
+.mfp-close:hover {
+  color: #8D6E63 !important;
+}
+
+/* === Slick Dots === */
+.slick-dots li button:before {
+  color: #BCAAA4 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #FFECB3 !important;
+}
+
+/* === Preloader === */
+.preloader {
+  background: #3E2723 !important;
+}
