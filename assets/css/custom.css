@@ -1,5 +1,65 @@
 /* African Earth Tone Theme Overrides */
 
+/* === Typography === */
+html {
+  font-size: 18px !important;
+}
+
+body {
+  font-size: 1rem !important;
+  line-height: 1.75 !important;
+}
+
+h1 {
+  font-size: 2.75rem !important;
+}
+
+h2 {
+  font-size: 2.25rem !important;
+}
+
+h3 {
+  font-size: 1.75rem !important;
+}
+
+h4 {
+  font-size: 1.35rem !important;
+}
+
+h5 {
+  font-size: 1.15rem !important;
+}
+
+h6 {
+  font-size: 1.05rem !important;
+}
+
+p, li, td {
+  font-size: 1.05rem !important;
+  line-height: 1.75 !important;
+}
+
+.btn-main {
+  font-size: 1rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1rem !important;
+}
+
+.single-services p,
+.single-services h4 {
+  font-size: 1.05rem !important;
+}
+
+.counter .count {
+  font-size: 3rem !important;
+}
+
+.counter .title {
+  font-size: 1.1rem !important;
+}
+
 /* === Base Colors === */
 html, body {
   background-color: #3E2723 !important;
@@ -286,4 +346,63 @@ hr {
 /* === Preloader === */
 .preloader {
   background: #3E2723 !important;
+}
+
+/* === Feature Section (new) === */
+.about-style2 .content-block h2 {
+  color: #FFECB3 !important;
+}
+
+.about-style2 .content-block p {
+  color: #BCAAA4 !important;
+}
+
+.about-style2 .media h4 {
+  color: #FFECB3 !important;
+}
+
+.about-style2 .media p {
+  color: #A1887F !important;
+}
+
+.about-style2 .media i {
+  color: #FFECB3 !important;
+}
+
+/* === Skill Section (new) === */
+#skills h2 {
+  color: #FFECB3 !important;
+}
+
+#skills p {
+  color: #BCAAA4 !important;
+}
+
+.skill-bar li p {
+  color: #D7CCC8 !important;
+}
+
+.skill-bar .progress {
+  background: #4E342E !important;
+}
+
+.skill-bar .progress-bar {
+  background: #FFECB3 !important;
+}
+
+/* === Testimonial Section (new) === */
+.testimonial h3 {
+  color: #FFECB3 !important;
+}
+
+.testimonial .client-comment p {
+  color: #D7CCC8 !important;
+}
+
+.testimonial .client-meta span {
+  color: #BCAAA4 !important;
+}
+
+.testimonial .item {
+  background: rgba(62, 39, 35, 0.85) !important;
 }
