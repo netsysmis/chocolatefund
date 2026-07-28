@@ -406,3 +406,8 @@ hr {
 .testimonial .item {
   background: rgba(62, 39, 35, 0.85) !important;
 }
+
+/* === Counter Suffixes === */
+.count[data-suffix]::after {
+  content: attr(data-suffix);
+}
