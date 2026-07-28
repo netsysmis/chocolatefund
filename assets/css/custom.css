@@ -412,3 +412,10 @@ hr {
 .count[data-suffix]::after {
   content: attr(data-suffix);
 }
+
+/* === Prevent background images from tiling === */
+[style*="background-image"] {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
