@@ -29,8 +29,8 @@ feature:
     enable: true
     title: "Ghana's Policy Response"
     content: "The core problem in cocoa is structural. Producing countries export raw beans while the most profitable parts of the value chain — grinding, refining, manufacturing, branding, and retail — are concentrated elsewhere. Ghana's reforms aim to change that."
-    image: "images/features-1.jpg"
-    image_webp: "images/features-1.jpg"
+    image: "images/cocoa-beans-processing.jpg"
+    image_webp: "images/cocoa-beans-processing.jpg"
     feature_item:
       - icon: "ti-cup"
         title: "50% Local Processing Mandate"
@@ -48,7 +48,7 @@ funfacts:
   funfacts:
     enable: true
     title: "Impact at a Glance"
-    bg_image: "images/features-2.jpg"
+    bg_image: "images/cocoa-farmer-field.jpg"
     counter_item:
       - icon: "ti-stats-up"
         count: "750"
@@ -72,8 +72,8 @@ cta:
     enable: true
     title: "Join Us in Building Ghana's Cocoa Future"
     content: "The Chocolate Future offers a credible platform for investment that is economically strategic, socially meaningful, and nationally aligned — with Ghana as our home."
-    bg_image: "images/features-3.jpg"
-    bg_image_webp: "images/features-3.jpg"
+    bg_image: "images/artisan-chocolate-crafting.jpg"
+    bg_image_webp: "images/artisan-chocolate-crafting.jpg"
     button:
       enable: true
       label: "Contact Us"
@@ -100,7 +100,7 @@ skill:
     title: "The Cocoa Value Chain"
     subtitle: "Where the Value Lives"
     content: "The global chocolate market is valued in the tens of billions, yet the wealth it generates flows far from the farms that supply its raw material. Moving up this value chain is the key to transforming Ghana's cocoa economy."
-    image: "images/features-3.jpg"
+    image: "images/cocoa-beans-drying.jpg"
     skill_item:
       - name: "Raw Bean Production"
         percent: "20%"
@@ -117,8 +117,8 @@ testimonial:
   testimonial:
     enable: true
     title: "Voices of Conviction"
-    bg_image: "images/features-2.jpg"
-    bg_image_webp: "images/features-2.jpg"
+    bg_image: "images/cocoa-pods-tree.jpg"
+    bg_image_webp: "images/cocoa-pods-tree.jpg"
     testimonial_item:
       - name: "The Structural Reality"
         date: "Industry Fact"
