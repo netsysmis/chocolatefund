@@ -51,17 +51,17 @@ funfacts:
     bg_image: "images/hero.jpg"
     counter_item:
       - icon: "ti-stats-up"
-        count: "60"
-        title: "Global Cocoa Share"
+        count: "750K"
+        title: "Tonnes Ghana Produces Yearly"
       - icon: "ti-money"
-        count: "3"
-        title: "Value Captured by Africa"
+        count: "$100B+"
+        title: "Global Chocolate Market Value"
       - icon: "ti-target"
-        count: "50"
-        title: "Local Processing Target"
-      - icon: "ti-world"
-        count: "2"
-        title: "Countries Supported"
+        count: "50%"
+        title: "Local Processing Target by 2027"
+      - icon: "ti-stats-up"
+        count: "60%"
+        title: "of World Cocoa from GH + CI"
 
 cta:
   cta:
