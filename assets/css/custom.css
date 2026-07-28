@@ -1,85 +1,85 @@
 /* African Earth Tone Theme Overrides */
 
-/* === Typography === */
+/* === Typography — bigger === */
 html {
-  font-size: 18px !important;
+  font-size: 22px !important;
 }
 
 body {
-  font-size: 1rem !important;
+  font-size: 1.1rem !important;
   line-height: 1.75 !important;
 }
 
 h1 {
-  font-size: 2.75rem !important;
+  font-size: 3rem !important;
 }
 
 h2 {
-  font-size: 2.25rem !important;
+  font-size: 2.5rem !important;
 }
 
 h3 {
-  font-size: 1.75rem !important;
+  font-size: 2rem !important;
 }
 
 h4 {
-  font-size: 1.35rem !important;
+  font-size: 1.5rem !important;
 }
 
 h5 {
-  font-size: 1.15rem !important;
+  font-size: 1.25rem !important;
 }
 
 h6 {
-  font-size: 1.05rem !important;
+  font-size: 1.1rem !important;
 }
 
 p, li, td {
-  font-size: 1.05rem !important;
-  line-height: 1.75 !important;
+  font-size: 1.15rem !important;
+  line-height: 1.8 !important;
 }
 
 .btn-main {
-  font-size: 1rem !important;
+  font-size: 1.1rem !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  font-size: 1rem !important;
+  font-size: 1.1rem !important;
 }
 
 .single-services p,
 .single-services h4 {
-  font-size: 1.05rem !important;
+  font-size: 1.15rem !important;
 }
 
 .counter .count {
-  font-size: 3rem !important;
+  font-size: 3.5rem !important;
 }
 
 .counter .title {
-  font-size: 1.1rem !important;
+  font-size: 1.3rem !important;
 }
 
-/* === Base Colors === */
+/* === Base Colors — brighter text === */
 html, body {
   background-color: #3E2723 !important;
-  color: #A1887F !important;
+  color: #EFEBE9 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #D7CCC8 !important;
+  color: #FFFFFF !important;
 }
 
 p, li, td {
-  color: #A1887F !important;
+  color: #EFEBE9 !important;
 }
 
 a {
-  color: #8D6E63;
+  color: #FFECB3;
 }
 
 a:focus, a:hover {
-  color: #A1887F;
+  color: #FFFFFF;
 }
 
 /* === Selection === */
@@ -139,7 +139,7 @@ a:focus, a:hover {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #BCAAA4 !important;
+  color: #EFEBE9 !important;
 }
 
 /* === Hero Section === */
@@ -148,7 +148,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block p {
-  color: #D7CCC8 !important;
+  color: #EFEBE9 !important;
 }
 
 /* === About Section === */
@@ -157,7 +157,7 @@ a:focus, a:hover {
 }
 
 #about .block p {
-  color: #A1887F !important;
+  color: #EFEBE9 !important;
 }
 
 .about-style2 .block h4 {
@@ -166,7 +166,7 @@ a:focus, a:hover {
 
 /* === Feature Items (About) === */
 .nav-feature li a {
-  color: #BCAAA4 !important;
+  color: #EFEBE9 !important;
 }
 
 .nav-feature li a:hover,
@@ -197,7 +197,7 @@ a:focus, a:hover {
 }
 
 .single-services:hover i {
-  color: #8D6E63 !important;
+  color: #FFFFFF !important;
 }
 
 /* === Funfacts / Counter Section === */
@@ -210,7 +210,7 @@ a:focus, a:hover {
 }
 
 .counter .title {
-  color: #BCAAA4 !important;
+  color: #EFEBE9 !important;
 }
 
 /* === Call to Action === */
@@ -223,7 +223,7 @@ a:focus, a:hover {
 }
 
 .call-to-action p {
-  color: #D7CCC8 !important;
+  color: #EFEBE9 !important;
 }
 
 /* === Contact Section === */
@@ -232,11 +232,11 @@ a:focus, a:hover {
 }
 
 #contact .block-contact p {
-  color: #A1887F !important;
+  color: #EFEBE9 !important;
 }
 
 .contact-list .single-contact {
-  color: #BCAAA4 !important;
+  color: #EFEBE9 !important;
 }
 
 .contact-list .single-contact i {
@@ -245,15 +245,15 @@ a:focus, a:hover {
 
 /* === Footer === */
 .footer-widget p {
-  color: #8D6E63 !important;
+  color: #EFEBE9 !important;
 }
 
 .footer-widget .list-recent li a {
-  color: #8D6E63 !important;
+  color: #EFEBE9 !important;
 }
 
 .list-inline-footer a i {
-  color: #BCAAA4 !important;
+  color: #EFEBE9 !important;
   background: #4E342E !important;
 }
 
@@ -278,7 +278,7 @@ hr {
 .form-control {
   background-color: #4E342E !important;
   border-color: #5D4037 !important;
-  color: #D7CCC8 !important;
+  color: #EFEBE9 !important;
 }
 
 .form-control:focus {
@@ -331,12 +331,12 @@ hr {
 }
 
 .mfp-close:hover {
-  color: #8D6E63 !important;
+  color: #FFFFFF !important;
 }
 
 /* === Slick Dots === */
 .slick-dots li button:before {
-  color: #BCAAA4 !important;
+  color: #EFEBE9 !important;
 }
 
 .slick-dots li.slick-active button:before {
@@ -348,13 +348,13 @@ hr {
   background: #3E2723 !important;
 }
 
-/* === Feature Section (new) === */
+/* === Feature Section === */
 .about-style2 .content-block h2 {
   color: #FFECB3 !important;
 }
 
 .about-style2 .content-block p {
-  color: #BCAAA4 !important;
+  color: #EFEBE9 !important;
 }
 
 .about-style2 .media h4 {
@@ -362,24 +362,24 @@ hr {
 }
 
 .about-style2 .media p {
-  color: #A1887F !important;
+  color: #EFEBE9 !important;
 }
 
 .about-style2 .media i {
   color: #FFECB3 !important;
 }
 
-/* === Skill Section (new) === */
+/* === Skill Section === */
 #skills h2 {
   color: #FFECB3 !important;
 }
 
 #skills p {
-  color: #BCAAA4 !important;
+  color: #EFEBE9 !important;
 }
 
 .skill-bar li p {
-  color: #D7CCC8 !important;
+  color: #FFFFFF !important;
 }
 
 .skill-bar .progress {
@@ -390,17 +390,17 @@ hr {
   background: #FFECB3 !important;
 }
 
-/* === Testimonial Section (new) === */
+/* === Testimonial Section === */
 .testimonial h3 {
   color: #FFECB3 !important;
 }
 
 .testimonial .client-comment p {
-  color: #D7CCC8 !important;
+  color: #EFEBE9 !important;
 }
 
 .testimonial .client-meta span {
-  color: #BCAAA4 !important;
+  color: #EFEBE9 !important;
 }
 
 .testimonial .item {
